@@ -4,10 +4,10 @@ Temperature Sensor DS18B20
 terry@yourduino.com */
 
 /*-----( Import needed libraries )-----*/
-#include <OneWire.h>
-#include <DallasTemperature.h>
-#include <SoftwareSerial.h>
-#include <serLCD.h>
+#include "OneWire.h"
+#include "DallasTemperature.h"
+#include "SoftwareSerial.h"
+#include "serLCD.h"
 /*-----( Declare Constants )-----*/
 #define ONE_WIRE_BUS 2 /*-(Connect to Pin 2 )-*/
 #define POT_PIN    A0
